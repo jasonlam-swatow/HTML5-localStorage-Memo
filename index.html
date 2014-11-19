@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5 LocalStorage Demo</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link href="css/demo.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div class="wrapper">
+				<h1>Memo</h1>
+			<div class="main">
+				<header id="header"></header>
+				<div id="localstorage">
+					<textarea class="localstorage" placeholder="任何在此鍵入的內容都會被HTML5 localStorage貯存。" rows="5" autofocus></textarea>
+					<button class="clear">清空</button>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p class="intro">
+				此HTML5 localStorage demo會逐秒地將你所鍵入的內容貯存入localStorage。無論你刷新頁面或重啓機器，它們都會保持原樣。你可點擊下方按鈕，來清空貯存數據。
+			</p>
+			<p>
+				Written & designed by <a href="jasonlamswatow.com/">Jason Lam</a>
+			</p>
+		</footer>
+
+		<script src="js/scripts.js"></script>
+
+	</body>
+</html>
